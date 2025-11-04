@@ -4,3 +4,74 @@
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-right: 16px;
+}
+
+.hero {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 64px;
+}
+
+.hero-content {
+  max-width: 900px;
+}
+
+.hero-heading {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.sign-up-button {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #3882f6;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 240px;
+  background-color: #536377;
+}
+
+.placeholder-image {
+  color: #e5e7eb;
+  font-size: 16px;
+}
